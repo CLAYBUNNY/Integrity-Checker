@@ -1,3 +1,18 @@
+"""
+File Integrity Checker - Secure File Monitor Tool
+Author: Dinesh
+GitHub: https://github.com/Dinesh1925
+
+Features:
+---------
+✔️ GUI built with `ttkbootstrap` for modern look  
+✔️ SHA-256 hashing for security  
+✔️ Save and load hash state  
+✔️ Detect file modifications, deletions, or new files  
+✔️ Scheduled background scans  
+✔️ Logging for audit and debugging
+
+"""
 import os
 import hashlib
 import json
